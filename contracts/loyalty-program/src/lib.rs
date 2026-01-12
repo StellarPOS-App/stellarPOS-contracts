@@ -4,3 +4,4 @@
 // Loyalty program update 21
 // Loyalty program update 27
 // Loyalty program update 33
+// Loyalty program update 39
