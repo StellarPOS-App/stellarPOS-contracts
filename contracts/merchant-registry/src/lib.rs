@@ -5,3 +5,4 @@
 // Merchant registry update 29
 // Merchant registry update 35
 // Merchant registry update 41
+// Merchant registry update 47
