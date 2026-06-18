@@ -2,13 +2,13 @@
 
 Comprehensive Soroban smart contracts for StellarPOS payment processing, business logic, and financial operations on the Stellar blockchain.
 
-## 🌟 Overview
+## Overview
 
 StellarPOS Smart Contracts provide a complete suite of blockchain-based business logic for point-of-sale operations, including payment processing, escrow services, loyalty programs, and financial management.
 
-## 🔧 Contracts Overview
+## Contracts Overview
 
-### 💳 Payment Processor Contract
+### Payment Processor Contract
 Core payment processing contract handling:
 - **Multi-Asset Payments**: XLM and custom token support
 - **Atomic Transactions**: Guaranteed payment execution
@@ -16,7 +16,7 @@ Core payment processing contract handling:
 - **Payment Verification**: Cryptographic proof of payment
 - **Refund Processing**: Automated refund mechanisms
 
-### 🔒 Escrow Service Contract
+### Escrow Service Contract
 Secure escrow services for complex transactions:
 - **Multi-Party Escrow**: Support for multiple parties
 - **Time-locked Releases**: Automated time-based releases
@@ -24,7 +24,7 @@ Secure escrow services for complex transactions:
 - **Partial Releases**: Milestone-based payments
 - **Emergency Recovery**: Admin recovery mechanisms
 
-### 🎯 Loyalty Program Contract
+### Loyalty Program Contract
 Customer loyalty and rewards management:
 - **Point Accumulation**: Earn points on purchases
 - **Tier Management**: Customer loyalty tiers
@@ -32,7 +32,7 @@ Customer loyalty and rewards management:
 - **Expiration Handling**: Automatic point expiration
 - **Bonus Campaigns**: Time-limited promotions
 
-### 💰 Treasury Management Contract
+### Treasury Management Contract
 Business treasury and financial operations:
 - **Multi-signature Wallets**: Secure fund management
 - **Automated Distributions**: Revenue sharing
@@ -40,7 +40,7 @@ Business treasury and financial operations:
 - **Yield Generation**: Stake rewards integration
 - **Financial Reporting**: On-chain audit trails
 
-### 🏪 Merchant Registry Contract
+### Merchant Registry Contract
 Merchant onboarding and management:
 - **Merchant Registration**: Decentralized merchant onboarding
 - **KYC Integration**: Identity verification hooks
@@ -48,7 +48,7 @@ Merchant onboarding and management:
 - **Status Management**: Active/inactive merchant states
 - **Compliance Tracking**: Regulatory compliance monitoring
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Smart Contract Platform**: Soroban (Stellar)
 - **Programming Language**: Rust
@@ -58,7 +58,7 @@ Merchant onboarding and management:
 - **Deployment**: Stellar Testnet & Mainnet
 - **Monitoring**: Stellar Expert integration
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 contracts/
@@ -116,7 +116,7 @@ contracts/
 └── docs/               # Documentation
 ```
 
-## 🚀 Quick Start
+
 
 ### Prerequisites
 - Rust 1.70+
@@ -265,7 +265,7 @@ cargo tarpaulin --out Html
 cargo bench
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### Testnet Deployment
 
@@ -297,7 +297,7 @@ soroban contract invoke \
   -- get_version
 ```
 
-## 🔐 Security Features
+## Security Features
 
 ### Access Control
 - **Role-based Permissions**: Admin, merchant, customer roles
@@ -388,6 +388,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Soroban Documentation](https://soroban.stellar.org/)
 - [Stellar Developer Portal](https://developers.stellar.org/)
 
----
 
-Built with ❤️ for the Stellar ecosystem
+
